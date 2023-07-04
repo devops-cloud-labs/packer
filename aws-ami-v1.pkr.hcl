@@ -18,7 +18,7 @@ source "amazon-ebs" "amazon-linux" {
   instance_type   = "t2.micro"
   source_ami      = "ami-0d6294dcaac5546e4"
   ssh_username    = "ec2-user"
-  ami_users       = ["595634352466"]
+  #ami_users       = ["AWS Account ID"]
   ami_regions     = [
                       "ap-southeast-2"
                     ]
