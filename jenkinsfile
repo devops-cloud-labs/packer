@@ -12,7 +12,7 @@ pipeline {
 
     stage('Pull Code from Git') {
       steps {
-        git 'https://github.com/your-repo/your-code.git'
+        git 'https://github.com/nabeeljb/packer.git'
       }
     }
   }
