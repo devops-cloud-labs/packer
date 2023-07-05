@@ -9,11 +9,5 @@ pipeline {
         sh 'sudo mv packer /usr/local/bin/'
       }
     }
-
-    stage('Pull Code from Git') {
-      steps {
-        git 'https://github.com/nabeeljb/packer.git'
-      }
-    }
   }
 }
