@@ -1,11 +1,6 @@
 pipeline {
     agent any
     stages {
-        stage("Pull Code from GitHub") {
-            steps {
-                git branch: 'main', url: 'https://github.com/nabeeljb/packer.git'
-            }
-        }
         stage("AWS Demo") {
             steps {
                 withCredentials([
